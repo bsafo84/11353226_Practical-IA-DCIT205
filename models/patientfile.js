@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const Patient = require('./models/Patient');
-const Encounter = require('./models/Encounter');
+const Encounter = require('./Encounter');
 const app = express();
 
 mongoose.connect('mongodb://localhost/hms', {

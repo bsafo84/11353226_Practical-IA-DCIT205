@@ -5,7 +5,7 @@ const Patient = require('./models/Patient');
 const Encounter = require('./models/Encounter');
 const app = express();
 
-mongoose.connect('mongodb://localhost/hms', {
+mongoose.connect('mongodb://localhost:27017', {
  useNewUrlParser: true,
  useUnifiedTopology: true
 });
